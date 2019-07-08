@@ -1,12 +1,12 @@
 from numpy import *
 import sys
-qt_dir = "D:/qtlab_replacement"
-sys.path.append(qt_dir)
-import init
-from instruments import *
-import sweep
+#qt_dir = "D:/qtlab_replacement"
+#sys.path.append(qt_dir)
+from qsweepy import *
+from qsweepy.instruments import *
+#import sweep
 import time
-import save_pkl
+#import save_pkl
 from matplotlib.pyplot import *
 
 #Data mamagement
